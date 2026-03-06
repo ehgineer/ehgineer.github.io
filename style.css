@@ -1,0 +1,44 @@
+body {
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    background:#0f172a;
+    color:white;
+}
+
+.container{
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+h1{
+    font-size:60px;
+    margin:0;
+}
+
+.subtitle{
+    margin-top:10px;
+    opacity:0.7;
+}
+
+.buttons{
+    margin-top:40px;
+}
+
+.btn{
+    text-decoration:none;
+    padding:15px 40px;
+    margin:10px;
+    border:2px solid white;
+    border-radius:8px;
+    color:white;
+    font-size:18px;
+    transition:0.3s;
+}
+
+.btn:hover{
+    background:white;
+    color:black;
+}
